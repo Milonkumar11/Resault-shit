@@ -1,0 +1,25 @@
+Bangla=float(input("Bangla mark-"))
+English=float(input("English mark-"))
+Math=float(input("Math mark-"))
+Resault=(Bangla+English+Math)/2
+if Resault>=80 and Resault<=100:
+    print("great A+")
+    print("pint 4.00")
+elif Resault>=70 and Resault<=80:
+    print("great A")
+    print("pint 3.50") 
+elif Resault>=60 and Resault<=70:
+    print("great A-")
+    print("pint 3.00") 
+elif Resault>=50 and Resault<=60:
+    print("great B")
+    print("pint 2.50") 
+elif Resault>=40 and Resault<=50:
+    print("great C")
+    print("pint 2.00") 
+elif Resault>=30 and Resault<=40:
+    print("great D")
+    print("pint 3.50") 
+else: 
+    print("fail")
+    print("point 0.00") 
